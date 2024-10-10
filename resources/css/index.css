@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    color: #36322B;
+    font-size: 18px;
+}
+
+section {
+    margin: 50px 10%;
+    position: relative;
+    border: 1px solid #36322B;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow:#36322B 0px 5px 5px;
+}
+
+header, footer {
+    padding: 0 10%;
+    min-height: 100px;
+}
+
+footer {
+    text-align: center;
+}
+
+.colors {
+    text-align: center;
+}
+
+.color-cont {
+    display: inline-block;
+    border: 1px solid #36322B;
+    width: 202px;
+    height: 300px;
+    text-align: center;
+    border-radius: 100px;
+    box-shadow:#36322B 0px 3px 10px;
+    margin: 0 10px;
+}
+
+.color-cont:hover {
+    box-shadow:#36322B 0px 3px 15px;
+}
+
+.color{
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    padding: 80px 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.blue {
+    color:#1e84e1;
+}
+
+.bg-blue {
+    background-color: #1e84e1;
+}
+
+.bg-dark {
+    background-color: #36322B;
+}
+
+.bd-dark {
+    border: 1px solid #36322B;
+}
+
+.orange {
+    color: #E17B1E;
+}
+
+.bg-orange{
+    background-color: #E17B1E;
+}
+
+.ubuntu-mono {
+    font-family: "Ubuntu Mono", monospace; 
+}
+
+.lora {
+    font-family: "Lora", serif;
+}
+
+.oswald {
+    font-family: "Oswald", sans-serif;
+}
+
+.raleway {
+    font-family: "Raleway", sans-serif;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.fonts p{
+    padding: 10px 0;
+}
+
+h1, h2, h3 {
+    padding: 10px 0;
+}
+
+h1 {
+    font-size: 55px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 39px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn {
+    background-color: #E17B1E;
+    border-radius: 5px;
+    border: 2px solid #E17B1E;
+    color: #36322B;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-weight: normal;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #1e84e1;
+}
+
+.btn:active {
+    color: #E17B1E;
+}
+
+a {
+    color: #E17B1E;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+td {
+    padding: 5px;
+    border-bottom: 1px solid #36322B;
+}
+
